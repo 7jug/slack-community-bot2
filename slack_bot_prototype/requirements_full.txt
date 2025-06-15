@@ -1,0 +1,16 @@
+# Slack bot prototype requirements
+google-generativeai>=0.3.0
+slack-sdk>=3.23.0
+python-dotenv>=1.0.0
+sqlalchemy>=2.0.0
+pandas>=2.0.0
+schedule>=1.2.0
+
+# Development tools
+ruff>=0.1.0
+mypy>=1.0.0
+pytest>=7.0.0
+pytest-cov>=4.0.0
+
+# Web interface
+flask>=2.3.0

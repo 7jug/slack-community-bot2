@@ -1,0 +1,82 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# ===== IDEs =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
+
+# ===== Configuration (Sensitive) =====
+config/.env
+config/.env.*
+!config/.env.template
+
+# ===== Data & Logs =====
+data/
+logs/
+*.log
+*.db
+*.sqlite
+
+# ===== Testing =====
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+
+# ===== 課題には不要なファイル =====
+# Web関連
+web_app.py
+templates/
+start_web_admin.py
+
+# データベース関連
+src/database.py
+main_slack_bot_db.py
+src/message_processor_db.py
+
+# 高度なセキュリティ機能
+src/security_utils.py
+src/config_manager.py
+setup_secure_config.py
+
+# 通知・表彰システム
+src/notification_system.py
+src/achievement_scheduler.py
+
+# ドキュメント・テスト
+docs/
+tests/
+SECURITY.md
+CONTRIBUTING.md
+GITHUB_FILES.md
+.github/
+
+# 開発・テスト用スクリプト
+test_*.py
+debug_*.py
+populate_*.py
+check_*.py
+process_all_*.py
+post_test_message.py
+
+# その他
+LICENSE
+Makefile
+pyproject.toml
+README_PUBLIC.md
+CLAUDE.md
